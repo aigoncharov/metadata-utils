@@ -1,8 +1,6 @@
-# metadata-utils
+# metadata-utils [![Build Status](https://travis-ci.org/keenondrums/metadata-utils.svg?branch=master)](https://travis-ci.org/keenondrums/metadata-utils) [![Coverage Status](https://coveralls.io/repos/github/keenondrums/metadata-utils/badge.svg?branch=master)](https://coveralls.io/github/keenondrums/metadata-utils?branch=master) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Convenience%20utils%20for%20reflected%20metadata&url=https://github.com/keenondrums/metadata-utils&hashtags=javascript,typescript,metadata,reflection)
 
-Convenient metadata util functions:
-
-- [getMetadataAndCache](#getmetadataandcache)
+Convenience utils for reflected metadata.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
