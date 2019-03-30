@@ -1,20 +1,17 @@
+# metadata-utils
+
+Convenient metadata util functions:
+
+- [getMetadataAndCache](#getmetadataandcache)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
-
-- [metadata-utils](#metadata-utils)
-  - [Installation](#installation)
-  - [API](#api)
-    - [getMetadataAndCache](#getmetadataandcache)
+- [Installation](#installation)
+- [API](#api)
+  - [getMetadataAndCache](#getmetadataandcache)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# metadata-utils
-
-Convenient metadata util functrions:
-
-- getMetadataAndCache
 
 ## Installation
 
