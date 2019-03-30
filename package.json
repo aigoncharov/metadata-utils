@@ -1,0 +1,46 @@
+{
+  "name": "@keenondrums/metadata-utils",
+  "version": "1.0.0",
+  "description": "Convenience utils for reflected metadata",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npx jest",
+    "compile": "npx shx rm -rf dist && npx tsc -p tsconfig.prod.json",
+    "lint": "npx tsc -p tsconfig.json --noEmit && npx tslint -c tslint.json -p tsconfig.json",
+    "prepack": "npm run compile",
+    "coverage-report": "npx shx cat coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keenondrums/metadata-utils.git"
+  },
+  "author": "keenondrums (andrey.goncharov+it@protonmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keenondrums/singleton/metadata-utils"
+  },
+  "homepage": "https://github.com/keenondrums/metadata-utils#readme",
+  "keywords": [
+    "metadata",
+    "reflect",
+    "utils",
+    "typescript",
+    "ts"
+  ],
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "coveralls": "^3.0.3",
+    "doctoc": "^1.4.0",
+    "husky": "^1.3.1",
+    "jest": "^24.5.0",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4",
+    "reflect-metadata": "^0.1.13",
+    "shx": "^0.3.2",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.4000"
+  }
+}
