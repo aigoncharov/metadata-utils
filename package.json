@@ -1,6 +1,6 @@
 {
   "name": "@keenondrums/metadata-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convenience utils for reflected metadata",
   "main": "dist/index.js",
   "scripts": {
@@ -42,5 +42,8 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.3.4000"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.13"
   }
 }
